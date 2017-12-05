@@ -415,4 +415,5 @@ if __name__ == '__main__':
     if not argv:
         print USAGE
     else:
-        run_session('MM_Winning','MM_Cells', session_size=1, enable_prints=True)    
+        for i in range(1): 
+            run_session('MM_Winning','random', session_size=1, enable_prints=True)    

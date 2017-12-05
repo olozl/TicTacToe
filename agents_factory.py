@@ -16,6 +16,8 @@ AGENTS = {
         'MM_Cells':     player_for_agent_attacher(AlphaBetha,CellsWeightHeu),
         'MM_Recursive': player_for_agent_attacher(AlphaBetha,RecursiveWeightHeu),
 
+
+#        'mtcs': 	lambda player_obj: mtcsAgent(),
 }
 
 def AgentFactory(type_name, player_obj):
